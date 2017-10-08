@@ -1,5 +1,6 @@
 iframe{
 	width: 100%;
+	height: 250px;
 }
 .footContactLogoUNAD{
 	    text-align: center;
@@ -28,4 +29,7 @@ p{
 }
 .Certificados{
 	text-align: center;
+}
+.row{
+	margin: 0 !important;
 }
