@@ -1,3 +1,31 @@
 iframe{
 	width: 100%;
 }
+.footContactLogoUNAD{
+	    text-align: center;
+    margin-top: 2%;
+}
+.footContactFull{
+	background-color: black;
+	color:#FFF;
+	font-size: 11px;
+	  font-family: 'Open Sans', sans-serif;
+}
+.footContactTextEN{
+	text-align: left;
+}
+#copyrightUNAD{
+	text-align: center;
+}
+p{
+	width: 100%;
+}
+.footContactLogoCalidad {
+	width: 100%;
+}
+.footContactLogoCalidad  a{
+	margin-left: 5px;
+}
+.Certificados{
+	text-align: center;
+}
