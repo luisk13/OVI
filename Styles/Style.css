@@ -47,7 +47,6 @@ header figure {
     float: left;
     margin: 0;
     padding: 0;
-    position: absolute;
     text-align: center;
     width: 350px;
 }
@@ -62,4 +61,64 @@ figure {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 40px;
     -webkit-margin-end: 40px;
+}
+header p {
+	font-weight: bold;
+    font-size: 50px;
+    font-family: "Homer Simpson", cursive;
+    text-align: center;
+}
+nav {
+    margin: 0.5em;
+    border-radius: 1em;
+    padding: 0.5em;
+    background: rgb(0, 70, 105);
+    font-family: arial;
+    font-size: 0.9167em;
+    text-size-adjust: 100%;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0px auto;
+    padding: 0.7em 1.6em;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+nav ul li {
+    display: inline;
+    left: 15em;
+    position: relative;
+    padding: 0.4em 1.6em;
+    margin: 0px 0.4em;
+    list-style: none;
+    border-radius: 1.5em;
+
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+nav ul li a {
+    font-weight: bold;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    padding: 0.5em 1.25em;
+    margin: 0;
+    border-radius: 0.5em;
+    -webkit-border-radius: 1.6em;
+    -ms-border-radius: 1.em;
+    -o-border-radius: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+footer .footContactFull{
+	 border-radius: 1.5em;
+	 padding: 2px;
 }
