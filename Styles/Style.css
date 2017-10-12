@@ -122,3 +122,12 @@ footer .footContactFull{
 	 border-radius: 1.5em;
 	 padding: 2px;
 }
+div .Certificados {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    float: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 8px 0;
+    width: auto;
+}
