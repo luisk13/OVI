@@ -131,7 +131,7 @@ div .Certificados {
     padding: 8px 0;
     width: auto;
 }
-article{
+article,h2 {
 	 font-family: 'Open Sans', sans-serif;
 	 margin:5px;
 	 text-align: justify;
