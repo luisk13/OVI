@@ -65,7 +65,7 @@ figure {
 header p {
 	font-weight: bold;
     font-size: 50px;
-    font-family: "Homer Simpson", cursive;
+    font-family:'Open Sans',  cursive;
     text-align: center;
 }
 nav {
@@ -130,4 +130,9 @@ div .Certificados {
     overflow: hidden;
     padding: 8px 0;
     width: auto;
+}
+article{
+	 font-family: 'Open Sans', sans-serif;
+	 margin:5px;
+	 text-align: justify;
 }
