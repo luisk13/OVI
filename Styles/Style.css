@@ -68,7 +68,7 @@ header p {
     font-family:'Open Sans',  cursive;
     text-align: center;
 }
-nav {
+.nav {
     margin: 0.5em;
     border-radius: 1em;
     padding: 0.5em;
@@ -76,6 +76,7 @@ nav {
     font-family: arial;
     font-size: 0.8267em;
     text-size-adjust: 100%;
+    height: 50px;
 
 }
 nav ul {
