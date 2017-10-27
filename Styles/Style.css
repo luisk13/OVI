@@ -68,14 +68,15 @@ header p {
     font-family:'Open Sans',  cursive;
     text-align: center;
 }
-nav {
+.nav {
     margin: 0.5em;
     border-radius: 1em;
     padding: 0.5em;
     background: rgb(0, 70, 105);
     font-family: arial;
-    font-size: 0.9167em;
+    font-size: 0.8267em;
     text-size-adjust: 100%;
+    height: 50px;
 
 }
 nav ul {
@@ -83,15 +84,7 @@ nav ul {
     margin: 0px auto;
     padding: 0.7em 1.6em;
 }
-ul, menu, dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-}
+
 nav ul li {
     display: inline;
     left: 15em;
@@ -102,10 +95,7 @@ nav ul li {
     border-radius: 1.5em;
 
 }
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
+
 nav ul li a {
     font-weight: bold;
     color: rgb(255,255,255);
@@ -118,6 +108,234 @@ nav ul li a {
     -o-border-radius: 1.6em;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
+
+article
+	 {
+	margin: 0.3em;
+	background-color: 
+	border: 0.01em solid rgba(200,40,20,0.5);
+	border-radius: 0em;
+	padding: 0.5em;
+	float: left;
+	width: 67%;
+	display: table;
+
+	
+	}
+
+	section {
+	margin: 0.5em;
+	background-color: rgb(255,255,255);
+	
+	border-radius: 0em;
+	padding: 0.5em;
+	display: table;
+	width: 98%;
+
+	
+	
+	}
+Section #accordion,section #datepicker,section #tabs{
+		         font: 95% "Trebuchet MS"; sans-serif;
+				 margin: 1.5em 1em;
+				 }
+	
+	span {
+	margin: 0.5em;
+	background-color: rgb(232,232,232);
+	border: 0.2em solid rgb(128,128,128);
+	border-radius: 1em;
+	padding: 0.5em;
+	display: table;
+	width: 95%;
+
+	
+	
+	}
+
+
+cuadroultimo{
+	margin: 0.3em;
+	background-color: rgb(232,232,232);
+	border: 0.01em solid rgba(200,40,20,0.5);
+	border-radius: 1em;
+	padding: 0.5em;
+	float: right;
+	width: 25%;
+}
+	table {
+	border: 1px solid #0000ff;
+	background-color: rgba(45,155,14,0.2);
+	border-radius: 0.5em;
+	padding:0.2em;
+	}
+
+	td {
+	background-color: rgba(200,155,214,0.3);
+	border-radius: 0.5em;
+	text-align: center;
+	padding: 0.2em;
+	}
+
+	td a {
+	color: rgba(40,0,200,0.8);
+	text-decoration: none;
+	}
+
+	td a:hover {
+	color: rgba(200,200,0,0.8);
+	}
+
+	th img {
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+
+	td img {
+	width: 10%;
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+
+	
+cuadrodos{
+	margin: 0.3em;
+	background-color: rgb(232,232,232);
+	border: 0.01em solid rgba(200,40,20,0.5);
+	border-radius: 1em;
+	padding: 0.5em;
+	float: right;
+	width: 28%;
+}
+	table {
+	border: 1px solid #0000ff;
+	background-color: rgba(45,155,14,0.2);
+	border-radius: 0.5em;
+	padding:0.2em;
+	}
+
+	td {
+	background-color: rgba(200,155,214,0.3);
+	border-radius: 0.5em;
+	text-align: center;
+	padding: 0.2em;
+	}
+
+	td a {
+	color: rgba(40,0,200,0.8);
+	text-decoration: none;
+	}
+
+	td a:hover {
+	color: rgba(200,200,0,0.8);
+	}
+
+	th img {
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+
+	td img {
+	width: 90%;
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+	cuadrotres{
+	margin: 0.3em;
+	background-color: rgb(232,232,232);
+	border: 0.01em solid rgba(200,40,20,0.5);
+	border-radius: 1em;
+	padding: 0.5em;
+	float: right;
+	width: 28%;
+}
+	table {
+	border: 1px solid #0000ff;
+	background-color: rgba(45,155,14,0.2);
+	border-radius: 0.5em;
+	padding:0.2em;
+	}
+
+	td {
+	background-color: rgba(200,155,214,0.3);
+	border-radius: 0.5em;
+	text-align: center;
+	padding: 0.2em;
+	}
+
+	td a {
+	color: rgba(40,0,200,0.8);
+	text-decoration: none;
+	}
+
+	td a:hover {
+	color: rgba(200,200,0,0.8);
+	}
+
+	th img {
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+
+	td img {
+	width: 90%;
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+
+	aside{
+	margin: 0.3em;
+	background-color: rgb(232,232,232);
+	border: 0.01em solid rgba(200,40,20,0.5);
+	border-radius: 1em;
+	padding: 0.5em;
+	float: right;
+	width: 30%;
+}
+	table {
+	border: 1px solid #0000ff;
+	background-color: rgba(45,155,14,0.2);
+	border-radius: 0.5em;
+	padding:0.2em;
+	}
+
+	td {
+	background-color: rgba(200,155,214,0.3);
+	border-radius: 0.5em;
+	text-align: center;
+	padding: 0.2em;
+	}
+
+	td a {
+	color: rgba(40,0,200,0.8);
+	text-decoration: none;
+	}
+
+	td a:hover {
+	color: rgba(200,200,0,0.8);
+	}
+
+	th img {
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+
+	td img {
+	width: 90%;
+	border-radius: 0.5em;
+	margin: 0.2em;
+	}
+slices {
+	margin: 0.5em;
+	background-color: rgb(232,232,232);
+	border: 0.2em solid rgb(128,128,128);
+	border-radius: 1em;
+	padding: 0.5em;
+	display: table;
+	width: 95%;
+	}
+	
+	
 footer .footContactFull{
 	 border-radius: 1.5em;
 	 padding: 2px;

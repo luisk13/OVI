@@ -1,0 +1,80 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+li{
+	
+	display: inline-block;
+}
+li a{
+	
+	display: block;
+	min-width: 140px;/*tamaño cuadro*/
+	min-height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+li:hover a{ /* accion al pasar sobre*/
+	background: #19c589;
+}
+li:hover ul a{ /* separar listas de su suplista todas*/
+	background: #f3f3f3;
+	color: #2f3036;	
+ 	height: 40px;/*altura cajones*/
+ 	line-height: 40px;
+}
+li ul{
+	display: none;	
+}
+ul li a:hover + .sublista, .sublista:hover{
+	display: block;
+	    z-index: 1000;
+}
+li ul li{
+	display: block;
+	float: none;
+}
+li ul li a{
+	width: auto;
+	min-width: 100px;	
+	padding: 0 20px;
+}
+.mostrar-menu{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+input[type="checkbox"]{
+	display: none;
+}
+input[type="checkbox"]:checked ~ #menu{
+	display: block;
+}
+@media screen and (max-width: 760px){/*puntos de quiebre para responsive*/
+	ul{
+		position: static;
+		display: none;
+	}
+	li{
+		margin-bottom: 1px;
+	}
+	ul li, li a{
+		width: 100%;/*mostrar todo el contenido*/
+	}
+	.mostrar-menu{
+		display: block;
+			}	
+}
+
