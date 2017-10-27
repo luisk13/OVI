@@ -358,6 +358,6 @@ article,h2 {
 	 margin:5px;
 	 text-align: justify;
 }
-.timeline-Body {
+iframe .timeline-Body {
     height: 400px;
     }
