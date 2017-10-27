@@ -358,6 +358,7 @@ article,h2 {
 	 margin:5px;
 	 text-align: justify;
 }
-#twitter-widget-0 {
-    height: 400px;
+.conten section aside {
+        height: 700px;
+    overflow: scroll;
     }
