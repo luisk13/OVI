@@ -22,17 +22,19 @@ li a{
 	text-decoration: none;
 	color: #fff;
 }
-li:hover a{ /* accion al pasar sobre*/
-	background: #19c589;
+li:hover a, ul li ul li:hover a, .activo{ /* accion al pasar sobre*/
+	background: rgb(0, 70, 150);
 }
+
 li:hover ul a{ /* separar listas de su suplista todas*/
-	background: #f3f3f3;
-	color: #2f3036;	
+	background: rgb(0, 70, 105);
+	
  	height: 40px;/*altura cajones*/
  	line-height: 40px;
 }
 li ul{
-	display: none;	
+	display: none;
+	background: rgb(0, 70, 105)	
 }
 ul li a:hover + .sublista, .sublista:hover{
 	display: block;
