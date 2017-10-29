@@ -28,6 +28,27 @@
 	<script type="text/javascript" src="JScript/bootstrap.js"></script>
 	<script type="text/javascript" src="JScript/bootstrap.min.js"></script>
 	<script type="text/javascript" src="JScript/Eventos.js"></script>
+	<script>
+	$(document).ready(function(){ 
+   $('#Ejercicio1').on('click',function(){
+      $('#respuesta1').toggle();
+   });
+});
+	</script>
+	<script>
+	$(document).ready(function(){ 
+   $('#Ejercicio2').on('click',function(){
+      $('#respuesta2').toggle();
+   });
+});
+	</script>
+	<script>
+	$(document).ready(function(){ 
+   $('#Ejercicio3').on('click',function(){
+      $('#respuesta3').toggle();
+   });
+});
+	</script>
 </head>
 <body>
 <header class="fixed row">
@@ -99,7 +120,7 @@
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </aside>
 		<article class="contendo">
-<strong>	Practica:</strong>
+			<strong>	Practica:</strong>
                <br>
 			   <br>
 			“El que aprende y aprende y no practica lo que sabe, es como el que ara y ara y no siembra”. (Plantón)<br> 
@@ -114,6 +135,9 @@
 			   -	Necesitamos poder indicar si un volumen en la biblioteca está deteriorado o no.<br>
 			   -	Queremos controlar cada préstamo que se realiza almacenando la fecha en la que se realiza, la fecha tope para devolver (que son 15 días más que la fecha en la que se realiza el préstamo) y la fecha real en la que se devuelve el libro.
 			   <br>
+			   <p>(<a href="#" id="Ejercicio1">ver respuesta</a>)
+ 
+				<div id="respuesta1" style="display:none"><img src="Images/ejercicio1.gif" /> </div>
 			   <br>
 			<strong>	Ejercicio 2:</strong>
                <br>
@@ -123,6 +147,9 @@
 			   -	Los cursos que imparte la academia se identifican con un código de curso. Además, se almacena el programa del curso, las horas de duración del mismo, el título y cada vez que se imparte se anotará las fechas de inicio y fin del curso junto con un número concreto de curso (distinto del código) y los datos del profesor o profesora (sólo uno por curso) que son: documento de identidad, nombre, apellidos, dirección y teléfono.<br>
 			   -	Se almacena la nota obtenida por cada alumno en cada curso teniendo en cuenta que un mismo alumno o alumna puede realizar varios cursos y en cada cual obtendrá una nota.
 			   <br>
+			   <p>(<a href="#" id="Ejercicio2">ver respuesta</a>)
+ 
+				<div id="respuesta2" style="display:none"><img src="Images/ejercicio2.gif" /> </div>
 			   <br>
 			   <strong>	Ejercicio 3:</strong>
                <br>
@@ -132,10 +159,24 @@
 			   -	Para identificar a la provincia se usarán los dos primeros dígitos del código postal. Es decir 34 será el código de Palencia y 28 el de Madrid.<br>
 			   -	Necesitamos saber qué localidad es la capital de cada provincia y cuáles lo son de cada comunidad.
 			   <br>
+			   <p>(<a href="#" id="Ejercicio3">ver respuesta</a>)
+ 
+				<div id="respuesta3" style="display:none"><img src="Images/ejercicio3.gif" /> </div>
 			   <br>
+			   <br>
+			   <strong>	Referencia bibliográfica:</strong>
+               <br>
+               Sanchez, J. (s.f.). jorgesanchez. Obtenido de jorgesanchez.: https://jorgesanchez.net/er#<br>
+               Licencia Creative Commons 
+               <br>
+
+
+ 
 
 		<br>
 		<br>
+
+
 			</article>
 	</section>
 	<div class="col-lg-2 col-md-2 col-sm-1"></div>
