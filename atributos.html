@@ -18,6 +18,7 @@
 	 <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css">
 	 <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css.map">
  	 <link rel="stylesheet" type="text/css" href="Styles/Style.css">
+ 	 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 
 	<script type="text/javascript" src="JScript/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="JScript/jquery-3.2.1.js"></script>
@@ -44,24 +45,46 @@
 </div>
 	</div>
 </header>
-<nav class="menu">
-	<ul>
-					<li><a href="index.html">Inicio</a></li>
+<div class="nav">
+
+	<!--<nav class="menu"><ul>
+			<li><a href="index.html">Inicio</a></li>
 					<li><a href="entidad.html">Entidad</a></li>
 					<li><a href="relacion.html">Relacion</a></li>
 					<li><a href="atributos.html">Atributos</a></li>
 					<li><a href="lecturas.html">Lecturas</a></li>
 					<li><a href="actividades.html">Actividades</a></li>
 					<li><a href="autores.html">Autores</a></li>
+					</li>
+				
 					
 				
-				</ul>
-</nav>
+				</ul></nav> -->
+	<label for="show" class="mostrar-menu">
+		Menu
+	</label>
+	<input type="checkbox" id="show">
+	<ul id="menu ">
+	<!--li*4>a[href="#"]{nombre #$} ctl d selecionar parabras similares-->
+	<li><a href="index.html">Inicio</a></li>
+	<li>
+	    <a href="#">Lecturas</a>
+        <ul class="sublista">
+       				<li><a href="entidad.html">Entidad</a></li>
+					<li><a href="atributos.html">Atributos</a></li>
+					<li><a href="relacion.html">Relacion</a></li></li>
+        </ul>
+	</li>
+	<li><a href="actividades.html">Actividades</a></li>
+	<li><a href="autores.html">Autores</a></li>
+	</ul>
+
+</div>
+
 <div class="conten row">
 <div class="col-lg-2 col-md-2 col-sm-1"></div>
 	<section class="col-lg-8 col-md-8 col-sm-12">
-		<aside>
-	</aside>
+		
 		<article>
 			<strong> Objetivo de la sección: </strong>
 			<br>
@@ -71,19 +94,19 @@
 			<br>
 			<strong> Definicion de Atributo: </strong>
 			
-		Como lo mencionábamos anteriormente una entidad posee atributos, estos son características de las entidades, estas son una propiedad básica de la entidad. <br> <br> Retomando el ejemplo de la agenda, las características de la misma es que posee nombres, numero de teléfonos fijos, celulares y dirección. <br< <br> Para la creación de un atributo se da doble clic sobre la clase la cual denominamos agenda allí se despliegan unas herramientas como se muestra la imagen, se selecciona la herramienta que se llama “Add Atribute”, esta herramienta habilita un campo de texto para dar el nombre al atributo, si no se habilita el campo basta con dar doble clic sobre el objeto atributo creado. 
-		<br>
-		<br>
-		<img src="Images/atributo.jpg?" style="position:relative; top:10px; left:8px"/> 
-		<br>
-		<br>
-		<br>
-		<strong> Definicion de Clave: </strong>
-		<br>
-		<br>
-		Las claves son atributos con restricciones; una de las más usadas es la clave primaria la cual impide la repetición de datos dentro del atributo. <br> <br> Para agregar una clave se da doble clic sobre el atributo, y se da clic en la opción vicibiliy que se encuentra a mano izquierda del objeto y se selecciona la opción protected, la cual crea la clave primaria.
-		<br>
-		<br>
+			Como lo mencionábamos anteriormente una entidad posee atributos, estos son características de las entidades, estas son una propiedad básica de la entidad. <br> <br> Retomando el ejemplo de la agenda, las características de la misma es que posee nombres, numero de teléfonos fijos, celulares y dirección. <br< <br> Para la creación de un atributo se da doble clic sobre la clase la cual denominamos agenda allí se despliegan unas herramientas como se muestra la imagen, se selecciona la herramienta que se llama “Add Atribute”, esta herramienta habilita un campo de texto para dar el nombre al atributo, si no se habilita el campo basta con dar doble clic sobre el objeto atributo creado. 
+			<br>
+			<br>
+			<img src="Images/atributo.jpg?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+			<br>
+			<strong> Definicion de Clave: </strong>
+			<br>
+			<br>
+			Las claves son atributos con restricciones; una de las más usadas es la clave primaria la cual impide la repetición de datos dentro del atributo. <br> <br> Para agregar una clave se da doble clic sobre el atributo, y se da clic en la opción vicibiliy que se encuentra a mano izquierda del objeto y se selecciona la opción protected, la cual crea la clave primaria.
+			<br>
+			<br>
 			<img src="Images/clave.jpg?" style="position:relative; top:10px; left:8px"/> 
 			<br>
 			<br>
@@ -92,9 +115,25 @@
 			<br>
 			<br>
 			
-		<h2>Definición de Atributos.</h2>
-		<iframe width="100%" height="360" src="https://www.youtube.com/embed/noVPi2zdeEg" frameborder="0" allowfullscreen></iframe>
+			<h2>Definición de Atributos.</h2>
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/noVPi2zdeEg" frameborder="0" allowfullscreen></iframe>
 		</article>
+<aside>
+		<strong>Visitas a esta pagina</strong>
+        <div id="sfc35dnjklabjjk9ce3q5pr1um4wllz5jxe">
+		</div> 
+		<script type="text/javascript" src="https://counter8.freecounter.ovh/private/counter.js?c=35dnjklabjjk9ce3q5pr1um4wllz5jxe&down=async" async>
+		</script> 
+		<noscript>
+			<a href="https://www.contadorvisitasgratis.com" title="contadores de visitas">
+				<img src="https://counter8.freecounter.ovh/private/contadorvisitasgratis.php?c=35dnjklabjjk9ce3q5pr1um4wllz5jxe" border="0" title="contadores de visitas" alt="contadores de visitas">
+			</a>
+		</noscript> 
+
+		<a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		
+</aside>
 	</section>
 	<div class="col-lg-2 col-md-2 col-sm-1"></div>
 </div>
