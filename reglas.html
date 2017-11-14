@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	 <meta charset="UTF-8">
-	 <title>Document</title>
+	 	 <title>Modelado de Datos</title>
      <link rel="stylesheet" type="text/css" href="Styles/normalize.css">
 	 <link rel="stylesheet" type="text/css" href="Styles/bootstrap-grid.css">
 	 <link rel="stylesheet" type="text/css" href="Styles/bootstrap-grid.css">
@@ -18,6 +18,7 @@
 	 <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css">
 	 <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css.map">
  	 <link rel="stylesheet" type="text/css" href="Styles/Style.css">
+ 	 <link rel="stylesheet" type="text/css" href="Styles/menu.css">
 
 	<script type="text/javascript" src="JScript/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="JScript/jquery-3.2.1.js"></script>
@@ -51,6 +52,8 @@
 					<li><a href="entidad.html">Entidad</a></li>
 					<li><a href="relacion.html">Relacion</a></li>
 					<li><a href="atributos.html">Atributos</a></li>
+					<li><a href="reglas.html">Reglas</a></li>
+					<li><a href="ventajasdesventajas.html">Ventajas - Desventajas</a></li>
 					<li><a href="lecturas.html">Lecturas</a></li>
 					<li><a href="actividades.html">Actividades</a></li>
 					<li><a href="autores.html">Autores</a></li>
@@ -67,19 +70,103 @@
 	<!--li*4>a[href="#"]{nombre #$} ctl d selecionar parabras similares-->
 	<li><a href="index.html">Inicio</a></li>
 	<li>
-	    <a href="#">Lecturas</a>
+	    <a href="#" class="activo">Lecturas</a>
         <ul class="sublista">
-       				<li><a href="entidad.html">Entidad</a></li>
+       				<li><a href="entidad.html" >Entidad</a></li>
 					<li><a href="relacion.html">Relacion</a></li>
 					<li><a href="atributos.html">Atributos</a></li>
+					<li><a href="reglas.html">Reglas</a></li>
+					<li><a href="ventajasdesventajas.html">Ventajas - Desventajas</a></li>
         </ul>
 	</li>
 	<li><a href="actividades.html">Actividades</a></li>
-	<li><a href="autores.html" class="activo">Autores</a></li>
+	<li><a href="autores.html">Autores</a></li>
 	</ul>
 
 </div>
 
+<div class="conten row">
+<div class="col-lg-2 col-md-2 col-sm-1"></div>
+	<section class="col-lg-8 col-md-8 col-sm-12">
+	<aside>
+
+		<a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div id="sfc35dnjklabjjk9ce3q5pr1um4wllz5jxe">
+		</div> 
+		<script type="text/javascript" src="https://counter8.freecounter.ovh/private/counter.js?c=35dnjklabjjk9ce3q5pr1um4wllz5jxe&down=async" async>
+		</script> 
+		<noscript>
+			<a href="https://www.contadorvisitasgratis.com" title="contadores de visitas">
+				<img src="https://counter8.freecounter.ovh/private/contadorvisitasgratis.php?c=35dnjklabjjk9ce3q5pr1um4wllz5jxe" border="0" title="contadores de visitas" alt="contadores de visitas">
+			</a>
+		</noscript> 
+	</aside>
+		<article>
+		<strong> Objetivo de la sección: </strong>
+		<br> 
+		<br>
+		Definir, describir y dar ejemplos de las reglas que se deben tener en cuenta para la creación del modelo. 
+		<br>
+		<br>
+		<strong>Definicion de Reglas MER: </strong>
+			Las reglas son principios que se impone o se adopta para dirigir la conducta o la correcta realización de una acción o el correcto desarrollo de una actividad. Para la construcción de un diagrama Entidad – Relación saber las reglas hará el diseño de nuestro diagrama más fácil.
+			<br>
+			<br>
+			A continuación, listamos algunas reglas que debemos tener en cuenta:
+			<br>
+			<br>
+			1.	En un diagrama Entidad Relación. Nunca debe haber relaciones circulares. 
+			<br>
+			<br>
+			<img src="Images/regla_1.png?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+			2.	En un diagrama Entidad relación. No pueden haber entidades o relaciones Independientes. 
+			<br>
+			<br>
+			<img src="Images/regla_2.png?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+			3.	En un Diagrama Entidad relación. Un rombo solo puede unir a dos entidades, única y exclusivamente. 
+			<br>
+			<br>
+			<img src="Images/regla_3.png?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+			4.	En un Diagrama Entidad relación. Una Entidad puede estar relacionada con varias entidades, pero únicamente con rombos separados.
+			<br>
+			<br>
+			<img src="Images/regla_4.png?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+			5.	En un Diagrama Entidad relación. Cuando se encuentra un atributo que posee características propias (Atributos) como el dueño del vehículo, este no podrá ser atributo y pasará hacer una entidad. 
+			<br>
+			<br>
+			<img src="Images/regla_5.png?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+			6.	En un Diagrama Entidad relación. Toda Entidad se nombra el plural y los atributos en singular.
+			<br>
+			<br>
+			<img src="Images/regla_6.png?" style="position:relative; top:10px; left:8px"/> 
+			<br>
+			<br>
+
+		</article>
+	</section>
+	<div class="col-lg-2 col-md-2 col-sm-1"></div>
+</div>
+<div class="conten row">
+<div class="col-lg-2 col-md-2 col-sm-1"></div>
+<div class="col-lg-8 col-md-8 col-sm-12">
+	
+	<section class="col-lg-8 col-md-8 col-sm-12">
+		
+	</section>
+	<div class="col-lg-2 col-md-2 col-sm-1"></div>
+</div>
+</div>
 <footer>
 	<div class="footContactFull">
 <div class="footContact row">

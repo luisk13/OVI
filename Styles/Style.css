@@ -152,20 +152,21 @@ Section #accordion,section #datepicker,section #tabs{
 	padding: 0.5em;
 	display: table;
 	width: 95%;
-
-	
-	
 	}
 
 
 cuadroultimo{
-	margin: 0.3em;
+	margin: 1em;
 	background-color: rgb(232,232,232);
 	border: 0.01em solid rgba(200,40,20,0.5);
 	border-radius: 1em;
 	padding: 0.5em;
-	float: right;
+	float: left;
 	width: 25%;
+}
+cuadroultimo img{
+	min-height: 182px;
+	min-width: 152px;
 }
 	table {
 	border: 1px solid #0000ff;
